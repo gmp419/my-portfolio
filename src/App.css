@@ -134,9 +134,34 @@ nav ul li {
   text-decoration: none;
 }
 
+.btn-main-header:hover{
+  color: var(--primary-white);
+  background-color: var(--primary-red);
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+.particles-canvas,
 .tsparticles-canvas-el {
   position: absolute !important;
   height: 100vh;
   width: 100vw;
-  z-index: 10 !important;
+}
+
+@media(max-width:768px)  {
+  .particles-canvas{
+    display: none;
+  }
+
+  .main-info h1{
+    font-size:1.6rem;
+  }
+
+  .typed-text{
+    font-size:1.3rem;
+  }
+
+  .navbar-brand{
+    width: 7rem;
+  }
 }

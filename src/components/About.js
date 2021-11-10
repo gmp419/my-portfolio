@@ -10,7 +10,7 @@ const About = () => {
                     <img src={author} alt="author.." className="profile-img"/>
                     </div>
                 </div>
-                <div className="col-lg-6 col-xm-12">
+                <div className="col-lg-6 col-xm-12 d-flex align-center justify-content-center" id= "about-text">
                     <h1 className="about-heading">About Me</h1>
                     <p>Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
 

@@ -9,6 +9,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
+  --primary-black: #000000;
 }
 
 .App {
@@ -164,7 +165,7 @@ nav ul li {
 .profile-img{
   width: 50%;
   height: 50%;
-  border-radius: 5%;
+  border-radius: 50%;
   padding: 0.3rem;
   border: 1px solid var(--primary-orange);
 }
@@ -173,6 +174,10 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 
+}
+
+#about-text{
+  flex-direction: column;
 }
 
 /************************Services****************/
@@ -214,6 +219,8 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .2s ease-in-out;
+
 }
 
 .services .box:hover{
@@ -303,6 +310,93 @@ nav ul li {
   font-weight: 900;
 }
 
+/* -----------------------Portfolio---------------------------- */
+
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding:  0.2rem;
+}
+
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem!important;
+}
+
+.portfolio-image-box:hover .overflow-portfolio-image{
+  opacity: 60%;
+  transition: .3s ease-in-out;
+
+}
+
+
+/*------------ OVERFLOW BOX ------------------*/
+.overflow-portfolio-image {
+  position: absolute;
+  opacity: 0;
+   background: var(--primary-black);
+   width: 15rem;
+   height: 8rem;
+   top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon{
+  transition: .3s ease-in-out;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.popupbox-image{
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link{
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************************Media queries****************/
 @media(max-width:768px)  {
   .particles-canvas{
@@ -339,10 +433,32 @@ nav ul li {
     direction: ltr;
     width: 100%;
   }
+
+  .popupbox-image{
+    width: 100%;
+  }
 }
 @media(max-width:468px)  {
   .profile-img{
     width: 10rem;
     height: auto;
+  }
+}
+@media(max-height:570px) {
+ 
+  .popupbox-wrapper{
+    height: 100% !important;
+  }
+  .popupbox-image{
+    width: 50% !important;
+  }
+}
+@media(max-height:280px) {
+ 
+  .popupbox-wrapper{
+    height: 100% !important;
+  }
+  .popupbox-image{
+    width: 50% !important;
   }
 }

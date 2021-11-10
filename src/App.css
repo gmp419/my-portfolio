@@ -68,7 +68,7 @@ body{
   font-size: 1.2rem;
   font-weight: 200;
   letter-spacing: 0.0375rem;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 nav ul li {
@@ -79,7 +79,7 @@ nav ul li {
   color: var(--primary-white) !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  border-top: 0.1875rem solid var(--primary-dark) ;
+  /* border-top: 0.1875rem solid var(--primary-dark) ; */
 }
 
 .navbar-brand{
@@ -88,6 +88,7 @@ nav ul li {
   height:6 rem;
 }
 
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-dark) ;
@@ -95,6 +96,7 @@ nav ul li {
 
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange) ;
+  cursor: pointer !important;
 }
 
 .header-wrapper{
@@ -102,7 +104,7 @@ nav ul li {
   background: url(./images/wall-and-laptop-background.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 
 }
 
@@ -117,7 +119,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1;
 }
 
 .main-info h1{
@@ -152,7 +153,6 @@ nav ul li {
   position: absolute !important;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
 }
 
 
@@ -547,6 +547,37 @@ textarea:focus + .line{
   color: var(--primary-white);
   padding: 0.5rem 0 ; 
 }
+
+
+/************************Footer****************/
+
+.footer{
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer !important;
+}
+
+.footer p{
+  margin-bottom: 2px;
+}
+
+
+
+
+
+
+
 
 
 /************************Media queries****************/

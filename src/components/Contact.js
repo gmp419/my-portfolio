@@ -34,12 +34,12 @@ const Contact = () => {
   
       emailjs.send(service_id, template_id, variables, user_id)
         .then(() => {
-            setSuccesMessages("Email Sent Succesfully! I'll contact you as soon as possible.");
+            setSuccesMessages("Email Sent Succesfully! I'll contact you ASAP.");
         }).catch(err => console.error('Failed to send feedback. Error: ', err));
     };
   
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="text-center">
                 <h1>Contact Me</h1>
                 <p>Please fill out the form and describe your project needs and I will be in touch with you ASAP.</p>

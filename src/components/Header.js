@@ -16,7 +16,8 @@ const Header = () => {
                 backSpeed={60}
                 loop
             />
-            <Link smooth={true} offset={-55} to="home" aria-current="page" className="btn-main-header text-uppercase">Contact me</Link>
+            <Link smooth={true} aria-current="page" offset={-55} to="contact" className="btn-main-header text-uppercase" >Contact me</Link>
+
             </div>
         </div>
     )

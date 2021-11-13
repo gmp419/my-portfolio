@@ -139,6 +139,7 @@ nav ul li {
   color: var(--primary-white);
   margin-top: 2rem;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-main-header:hover{
@@ -153,6 +154,7 @@ nav ul li {
   position: absolute !important;
   height: 100vh;
   width: 100vw;
+  /* z-index: 1; */
 }
 
 

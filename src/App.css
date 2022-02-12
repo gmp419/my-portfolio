@@ -79,7 +79,7 @@ nav ul li {
   color: var(--primary-white) !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  border-top: 0.1875rem solid #212529 ;
+  /* border-top: 0.1875rem solid #212529 ; */
 }
 
 .navbar-brand{
@@ -91,12 +91,13 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-dark) ;
+  color: var(--primary-orange) !important;
 }
 
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid var(--primary-orange) ;
   cursor: pointer !important;
+  color: var(--primary-orange) !important;
+
 }
 
 .header-wrapper{
@@ -104,7 +105,7 @@ nav ul li {
   background: url(./images/wall-and-laptop-background.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
 
 }
 
@@ -329,6 +330,8 @@ nav ul li {
   width: 15rem;
   border: 1px solid var(--primary-orange);
   padding:  0.2rem;
+  overflow: hidden;
+  height: 8rem;
 }
 
 .portfolio-image-box{
@@ -662,4 +665,19 @@ textarea:focus + .line{
   .popupbox-image{
     width: 50% !important;
   }
+}
+
+
+.fa-github{
+  width: 3rem !important;
+  size: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+.fa-github:hover{
+  color: var(--primary-orange) !important;
+  cursor: pointer;
 }

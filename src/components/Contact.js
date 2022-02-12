@@ -9,9 +9,9 @@ const Contact = () => {
 
     const [succesMessages, setSuccesMessages] = React.useState("");
 
-    const service_id = process.env.REACT_APP_SERVICE_ID;
-    const template_id = process.env.REACT_APP_TEMPLATE_ID;
-    const user_id = process.env.REACT_APP_USER_ID;
+    const service_id = 'service_uqg5r6s';
+    const template_id = 'template_kulawik';
+    const user_id = 'user_sxHjD8ro392o1TqxWlvbh';
 
     const onSubmit = (data, r) => {
         sendEmail(

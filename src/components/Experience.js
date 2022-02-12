@@ -10,36 +10,36 @@ const Experience = () => {
                 <div className="timeline-blog timeline-blog-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>Computer Science</h3>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing
+                            I've finished my Bachelors in Computer Science from University of Regina, Saskatchwan.
                         </p>
                     </div>
                 </div>
                 <div className="timeline-blog timeline-blog-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>React Js With Laravel Build</h3>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing
+                            Complete PWA Ecommerce Project using ReactJS and Laravel.
                         </p>
                     </div>
                 </div>
                 <div className="timeline-blog timeline-blog-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>AWS Certified Cloud Practitioner</h3>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing
+                            I'm preparing for the AWS Certified Cloud Practitioner exam.
                         </p>
                     </div>
                 </div>
                 <div className="timeline-blog timeline-blog-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>Building Rest API using laravel</h3>
                         <p>
-                            lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscinglorem ipsum dolor sit amet, consectetur adipiscing
+                            I've built a rest api using laravel.
                         </p>
                     </div>
                 </div>

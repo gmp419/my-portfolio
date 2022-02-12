@@ -1,18 +1,18 @@
 import React from 'react'
-import author from '../images/me.jpg'
+import author from '../images/me.jpeg'
 
 const About = () => {
     return (
         <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12 align-center justify-content-center">
-                    <div className="photo-wrap mb-5">
+                    <div className="photo-wrap my-5">
                     <img src={author} alt="author.." className="profile-img"/>
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12 d-flex align-center justify-content-center" id= "about-text">
                     <h1 className="about-heading">About Me</h1>
-                    <p>Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
+                    <p>Hello! I am gaurang. I have been developing websites for over 3 years. I'm Full-Stack Web Developer. Technologies I use is ReactJS and Laravel).
 
                     I create responsive websites that are displayed on all devices desktops and smartphones.
 
@@ -22,7 +22,7 @@ const About = () => {
 
                     All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
 
-                    After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
+                    After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you.
                 </p>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {faFacebookF, faReact, faLaravel} from '@fortawesome/free-brands-svg-icons'
+import {faFacebookF, faReact, faLaravel, faAws} from '@fortawesome/free-brands-svg-icons'
 import {faCloud, faDesktop} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 const Services = () => {
     return (
         <div id="services" className="services">
-            <h1 className="py-5">My Services</h1>
+            <h1 className="py-5">My Experties</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-6">
@@ -23,11 +23,11 @@ const Services = () => {
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
-                                <FontAwesomeIcon icon={faReact} 
+                                <FontAwesomeIcon icon={faAws} 
                                 size="2x" className="icon"/>
                             </div>
-                            <h3>React JS</h3>
-                            <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+                            <h3>AWS Certified Cloud Practitioner</h3>
+                            <p>I have proven knowledge with AWS Cloud using varities of services.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
@@ -47,7 +47,7 @@ const Services = () => {
                                 size="2x" className="icon"/>
                             </div>
                             <h3>Cloud Practioner</h3>
-                            <p>I'm actively learning new cloud technologies and also preparing fro AWS Cloud Practioner exam on daily basis.</p>
+                            <p>I'm actively learning new cloud technologies using GCP and engaged with many tasks which end up in disaster recovery and cost saving planning.</p>
                         </div>
                     </div>
                 </div>

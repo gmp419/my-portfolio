@@ -19,27 +19,27 @@ const Experience = () => {
                 <div className="timeline-blog timeline-blog-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>React Js With Laravel Build</h3>
+                        <h3>PHP Developer</h3>
                         <p>
-                            Complete PWA Ecommerce Project using ReactJS and Laravel.
+                            Started my first job as PHP developer to managed web application up to date.
                         </p>
                     </div>
                 </div>
                 <div className="timeline-blog timeline-blog-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <h3>Junior Software Developer</h3>
                         <p>
-                            I'm preparing for the AWS Certified Cloud Practitioner exam.
+                            I have been building software using Laravel, Bootstrap and other third party utilities.
                         </p>
                     </div>
                 </div>
                 <div className="timeline-blog timeline-blog-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>Building Rest API using laravel</h3>
+                        <h3>Cloud Engineer</h3>
                         <p>
-                            I've built a rest api using laravel.
+                            I'm also certified AWS Cloud Practiotioner and working as a cloud engineer at software firm to utilize my expertise.
                         </p>
                     </div>
                 </div>

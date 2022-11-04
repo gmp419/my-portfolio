@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c2867cd2.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.26cb060c.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.26cb060c.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.bc005bb7.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.d1a12086.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.d1a12086.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.629f677c.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.629f677c.js.map",
     "static/css/2.d703c6cb.chunk.css": "/my-portfolio/static/css/2.d703c6cb.chunk.css",
-    "static/js/2.e0c6c3be.chunk.js": "/my-portfolio/static/js/2.e0c6c3be.chunk.js",
-    "static/js/2.e0c6c3be.chunk.js.map": "/my-portfolio/static/js/2.e0c6c3be.chunk.js.map",
+    "static/js/2.574f0d3f.chunk.js": "/my-portfolio/static/js/2.574f0d3f.chunk.js",
+    "static/js/2.574f0d3f.chunk.js.map": "/my-portfolio/static/js/2.574f0d3f.chunk.js.map",
     "static/js/3.56e90f56.chunk.js": "/my-portfolio/static/js/3.56e90f56.chunk.js",
     "static/js/3.56e90f56.chunk.js.map": "/my-portfolio/static/js/3.56e90f56.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.d703c6cb.chunk.css.map": "/my-portfolio/static/css/2.d703c6cb.chunk.css.map",
-    "static/css/main.c2867cd2.chunk.css.map": "/my-portfolio/static/css/main.c2867cd2.chunk.css.map",
-    "static/js/2.e0c6c3be.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.e0c6c3be.chunk.js.LICENSE.txt",
+    "static/css/main.bc005bb7.chunk.css.map": "/my-portfolio/static/css/main.bc005bb7.chunk.css.map",
+    "static/js/2.574f0d3f.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.574f0d3f.chunk.js.LICENSE.txt",
     "static/media/avatar-1.9277ecea.png": "/my-portfolio/static/media/avatar-1.9277ecea.png",
     "static/media/avatar-2.75d8f23e.png": "/my-portfolio/static/media/avatar-2.75d8f23e.png",
     "static/media/avatar-3.d6c9b46f.png": "/my-portfolio/static/media/avatar-3.d6c9b46f.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.629f677c.js",
     "static/css/2.d703c6cb.chunk.css",
-    "static/js/2.e0c6c3be.chunk.js",
-    "static/css/main.c2867cd2.chunk.css",
-    "static/js/main.26cb060c.chunk.js"
+    "static/js/2.574f0d3f.chunk.js",
+    "static/css/main.bc005bb7.chunk.css",
+    "static/js/main.d1a12086.chunk.js"
   ]
 }
